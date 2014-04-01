@@ -34,6 +34,7 @@ public class OCR {
 	@Inject
     OCRService oCRService;
 
+	/*
     @GET
     @Path("/json")
     @Produces({ "application/json" })
@@ -47,7 +48,7 @@ public class OCR {
     public String getHelloWorldXML() {
         return "<xml><result>" + oCRService.createHelloMessage("World") + "</result></xml>";
     }
-
+    */
 	
     @POST
 	@Path("/image-upload")
